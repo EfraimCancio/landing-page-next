@@ -7,6 +7,9 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    backgroundImage: {
+      'img_bg_hero': "url('../assets/bg-hero.jpg')",
+    },
     extend: { 
       'primary-blue': '#106EB0',
       'primary-orange': '#EC7000',
