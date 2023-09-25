@@ -6,10 +6,10 @@ type Props = {
     name: string;
 }
 
-export function ItemMenu () {
+export function ItemMenu ({name}: Props) {
     return (
-        <button>
-            <span></span>
+        <button className="flex items-center gap-3">
+            <span className="text-white font-bold">{name}</span>
             <Image src={Arrow} alt="icone de seta" />
         </button>
     )
