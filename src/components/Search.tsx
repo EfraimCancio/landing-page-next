@@ -8,7 +8,7 @@ export function Search() {
             <Image 
                 src={IconSearch} alt={'Search'}   
             />
-            <input type="text" className='bg-transparent outline-none text-white placeholder:text-white' placeholder='Buscar...'></input>
+            <input type="text" className='bg-transparent outline-none text-white placeholder:text-white pr-5' placeholder='Buscar...'></input>
         </div>
     )
 }
